@@ -22,32 +22,42 @@ Control the snake, eat food, grow longer, and avoid collisions with walls or you
 Install dependencies:
 ```bash
 pip install pygame
+```
 
-
-▶️ How to Run
+## ▶️ How to Run
 1. Clone or download repository
 2. Save script as snake_game.py
 3. Run the game:
-4. python snake_game.py 
+4. python snake_game.py
 
-🎯 Controls
+``` 
+```
+## 🎯 Controls
 * Arrow Keys: Move the snake in the desired direction.
 * Q Key: Quit the game after a short delay.
 
-📊 Scoring
+```
+```
+## 📊 Scoring
 * +10 points per food
 * Highest score tracked
+```
+```
 
-🖼️ Game Design
+
+## 🖼️ Game Design
 * Snake: Green blocks that grow longer when food is eaten.
 * Food: Red block randomly placed on the grid.
 * Background: Yellow screen for contrast.
+```
+```
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 * Levels or increasing speed
 * Persistent high scores
 * Custom sound effects/themes
-
-📌 Notes
+```
+```
+## 📌 Notes
 * The sound effect uses afplay (macOS). On other systems, replace with a suitable audio player or Pygame’s mixer module.
 * Ensure your terminal/IDE supports running Pygame windows.
